@@ -1,0 +1,60 @@
+.navMainWrapper {
+    background-color: #339657;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.navHeader p {
+    color: #656565;
+}
+
+.userPanel {
+    display: flex;
+}
+
+.userPanel p {
+    margin-left: 10px;
+}
+
+.navMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem {
+    color: #e1e1e1;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+
+.socialSharingBtn {
+    outline: none;
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 55%;
+    padding: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
